@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+description: map
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2014 by Your Company
+
+# these should not be edited
+name: map
+moduleid: com.vbg.map
+guid: 66892282-19ee-4f7a-a0b2-088ae76430b7
+platform: android
+minsdk: 3.4.0.GA

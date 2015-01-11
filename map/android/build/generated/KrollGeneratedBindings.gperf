@@ -1,0 +1,22 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name MapBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "com.vbg.map.ViewProxy.h"
+#include "com.vbg.map.AnnotationProxy.h"
+#include "com.vbg.map.MapModule.h"
+#include "com.vbg.map.RouteProxy.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+com.vbg.map.ViewProxy, ::com::vbg::map::map::ViewProxy::bindProxy, ::com::vbg::map::map::ViewProxy::dispose
+com.vbg.map.AnnotationProxy, ::com::vbg::map::map::AnnotationProxy::bindProxy, ::com::vbg::map::map::AnnotationProxy::dispose
+com.vbg.map.MapModule, ::com::vbg::map::MapModule::bindProxy, ::com::vbg::map::MapModule::dispose
+com.vbg.map.RouteProxy, ::com::vbg::map::map::RouteProxy::bindProxy, ::com::vbg::map::map::RouteProxy::dispose
+%%

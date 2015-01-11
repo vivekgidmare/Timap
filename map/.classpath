@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="android/src"/>
+	<classpathentry kind="src" path="android/build/.apt_generated"/>
+	<classpathentry kind="lib" path="/Volumes/Vivek/Hd/Titanium/android_sdk/sdk/platforms/android-14/android.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Vivek/Hd/Titanium/android_sdk/sdk/add-ons/addon-google_apis-google_inc_-14/libs/maps.jar"/>
+	<classpathentry kind="lib" path="/Users/vivek/Library/Application Support/Titanium/mobilesdk/osx/3.4.0.GA/android/titanium.jar"/>
+	<classpathentry kind="lib" path="/Users/vivek/Library/Application Support/Titanium/mobilesdk/osx/3.4.0.GA/android/kroll-common.jar"/>
+	<classpathentry kind="lib" path="/Users/vivek/Library/Application Support/Titanium/mobilesdk/osx/3.4.0.GA/android/kroll-apt.jar"/>
+	<classpathentry kind="lib" path="android/lib/google-play-services.jar"/>
+	<classpathentry kind="lib" path="/Users/vivek/Library/Application Support/Titanium/mobilesdk/osx/3.4.0.GA/android/android-support-v4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
