@@ -18,11 +18,9 @@ Yet not completed
 
 Contact me for any Query/Customization.
 
-vivekgidmare@gmail.com
-
 License
 
-Copyright (c) 2010-2013 Mads Møller
+Copyright (c) 2010-2013 Vivek Gidmare
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
